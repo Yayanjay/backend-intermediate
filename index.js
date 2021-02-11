@@ -26,14 +26,7 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorizaation')
 })
 
-db.connect()
-    .then(res => {
-        return console.log("Database Connected")
-    })
-    .catch(err => {
-        console.log("Something Went Wrong, Cannot Connect to Database")
-        console.log(err)
-    })
+db.connection()
 
 redis.redisConnection()
     .then((res) => {

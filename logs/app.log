@@ -59,3 +59,219 @@
 {"message":"::1 - - [21/Dec/2020:02:56:56 +0000] \"PUT /product HTTP/1.1\" 401 144 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
 {"message":"::1 - - [21/Dec/2020:02:57:05 +0000] \"PUT /product HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
 {"message":"::1 - - [21/Dec/2020:02:57:11 +0000] \"GET /product HTTP/1.1\" 200 3238 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: db.connection is not a function\nTypeError: db.connection is not a function\n    at Object.<anonymous> (D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js:29:4)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","stack":"TypeError: db.connection is not a function\n    at Object.<anonymous> (D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js:29:4)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Thu Jan 07 2021 20:38:27 GMT+0700 (Western Indonesia Time)","process":{"pid":10540,"uid":null,"gid":null,"cwd":"D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js"],"memoryUsage":{"rss":68542464,"heapTotal":55144448,"heapUsed":32986816,"external":2423845,"arrayBuffers":862974}},"os":{"loadavg":[0,0,0],"uptime":129490},"trace":[{"column":4,"file":"D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js","function":null,"line":29,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: db.connection is not a function\nTypeError: db.connection is not a function\n    at Object.<anonymous> (D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js:29:4)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","stack":"TypeError: db.connection is not a function\n    at Object.<anonymous> (D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js:29:4)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Thu Jan 07 2021 20:41:26 GMT+0700 (Western Indonesia Time)","process":{"pid":756,"uid":null,"gid":null,"cwd":"D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.1","argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js"],"memoryUsage":{"rss":69320704,"heapTotal":56455168,"heapUsed":33803680,"external":2309334,"arrayBuffers":741641}},"os":{"loadavg":[0,0,0],"uptime":129669},"trace":[{"column":4,"file":"D:\\Coding\\Arkademy\\devOps Engineer\\Learning Materials\\backend-inter\\backend-intermediate\\index.js","function":null,"line":29,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+{"message":"::1 - - [07/Jan/2021:16:06:37 +0000] \"GET /product/commit HTTP/1.1\" 200 33 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:16:32:20 +0000] \"GET /product HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:16:41:16 +0000] \"GET /product/commit HTTP/1.1\" 200 58 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:16:54:06 +0000] \"GET /product HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:16:56:40 +0000] \"GET /product HTTP/1.1\" 200 67 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:17:05:10 +0000] \"GET /product HTTP/1.1\" 200 67 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:17:33:22 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/product\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:17:34:06 +0000] \"POST /product HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:17:34:16 +0000] \"GET /product HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:17:38:00 +0000] \"GET /product HTTP/1.1\" 200 320 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:17:39:07 +0000] \"POST /product HTTP/1.1\" 200 311 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:17:39:16 +0000] \"GET /product HTTP/1.1\" 200 589 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:07:01 +0000] \"GET /product HTTP/1.1\" 200 589 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:07:48 +0000] \"GET /product?product_name=a HTTP/1.1\" 200 589 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:07:57 +0000] \"GET /product?product_name=ca HTTP/1.1\" 200 589 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:08:06 +0000] \"GET /product?product_name=Cappucino HTTP/1.1\" 200 589 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:08:40 +0000] \"GET /product?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:08:57 +0000] \"GET /product?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:10:17 +0000] \"GET /product?product_name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:10:38 +0000] \"GET /product?product_name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:11:18 +0000] \"GET /product?product_name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:14:25 +0000] \"GET /product?product_name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:14:57 +0000] \"GET /product?product_name=Cappucino HTTP/1.1\" 200 313 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:15:06 +0000] \"GET /product?product_name=a HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:16:22 +0000] \"GET /product?product_name=a HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:18:33 +0000] \"GET /product?product_name=a HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:21:57 +0000] \"GET /product?product_name=choco HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:22:03 +0000] \"GET /product?product_name=Choco HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:22:11 +0000] \"GET /product?product_name=black HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:22:39 +0000] \"GET /product?product_name=black HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:23:13 +0000] \"GET /product?product_name=black HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:23:29 +0000] \"GET /product?product_name=Black HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:23:31 +0000] \"GET /product?product_name=Black HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:23:41 +0000] \"GET /product?product_name=Black%20Forest HTTP/1.1\" 200 320 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:24:06 +0000] \"GET /product?product_price=5000 HTTP/1.1\" 200 313 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [07/Jan/2021:18:24:40 +0000] \"GET /product HTTP/1.1\" 200 589 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:12:36:38 +0000] \"GET /product HTTP/1.1\" 200 589 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:12:36:51 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/product\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:12:38:46 +0000] \"GET /user/commit HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [20/Jan/2021:12:39:02 +0000] \"GET /user/commit HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [20/Jan/2021:12:39:02 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/user/commit\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:27:02 +0000] \"GET /user HTTP/1.1\" 200 64 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:27:10 +0000] \"GET /user/commit HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:27:10 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/user\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:27:56 +0000] \"GET /user HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:27:56 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/user/commit\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [20/Jan/2021:14:28:16 +0000] \"GET /user HTTP/1.1\" 200 65 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:28:16 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/user\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:28:57 +0000] \"GET /product HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [20/Jan/2021:14:28:57 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/user\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:29:05 +0000] \"GET /product/commit HTTP/1.1\" 200 58 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:29:05 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/product\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:30:13 +0000] \"GET /user/commit HTTP/1.1\" 200 77 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:33:06 +0000] \"GET /user/commit HTTP/1.1\" 200 77 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:38:06 +0000] \"GET /user/commit HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:38:17 +0000] \"GET /user HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:43:29 +0000] \"GET /user/drop HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:43:54 +0000] \"GET /user/commit HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:43:54 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/user/drop\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:44:32 +0000] \"GET /user HTTP/1.1\" 200 65 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:46:35 +0000] \"POST /user HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:46:38 +0000] \"POST /user HTTP/1.1\" 200 246 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:50:30 +0000] \"GET /user/drop HTTP/1.1\" 200 77 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:51:19 +0000] \"GET /user HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:51:37 +0000] \"GET /user/commit HTTP/1.1\" 200 77 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:51:41 +0000] \"GET /user HTTP/1.1\" 200 65 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:51:54 +0000] \"POST /user HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [20/Jan/2021:14:55:50 +0000] \"GET /user HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:14:55:59 +0000] \"POST /user HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:15:13:11 +0000] \"GET /user HTTP/1.1\" 200 65 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:15:15:01 +0000] \"POST /user HTTP/1.1\" 200 298 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:15:17:38 +0000] \"GET /user HTTP/1.1\" 200 300 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [20/Jan/2021:15:45:59 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/user\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:29:46 +0000] \"GET /user HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:29:55 +0000] \"GET /user/drop HTTP/1.1\" 200 77 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:30:05 +0000] \"GET /user/commit HTTP/1.1\" 200 77 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:30:10 +0000] \"GET /user HTTP/1.1\" 200 65 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:30:39 +0000] \"POST /user HTTP/1.1\" 200 68 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:30:44 +0000] \"GET /user HTTP/1.1\" 200 300 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:32:20 +0000] \"POST /user HTTP/1.1\" 200 68 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:32:25 +0000] \"GET /user HTTP/1.1\" 200 538 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:34:17 +0000] \"PUT /user HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:14:34:23 +0000] \"GET /user HTTP/1.1\" 200 522 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:15:18:59 +0000] \"GET /api/user HTTP/1.1\" 200 522 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:18:34:18 +0000] \"GET /api/user/search?name=yayan HTTP/1.1\" 500 1217 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:18:35:34 +0000] \"GET /api/user/search HTTP/1.1\" 200 522 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:18:36:54 +0000] \"GET /api/user/search?name=yayan HTTP/1.1\" 200 282 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:18:37:21 +0000] \"GET /api/user/search?role=admin HTTP/1.1\" 200 522 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:18:39:09 +0000] \"DELETE /api/user/1 HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [21/Jan/2021:18:39:18 +0000] \"GET /api/user HTTP/1.1\" 200 282 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:40:18 +0000] \"GET /product HTTP/1.1\" - - \"http://localhost:8081/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:40:21 +0000] \"GET /api/product HTTP/1.1\" 200 589 \"http://localhost:8081/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:42:57 +0000] \"GET /api/commit HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:43:34 +0000] \"GET /commit HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:44:57 +0000] \"GET /api/commit HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:01 +0000] \"GET /api/products HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:01 +0000] \"GET /api/product HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:13 +0000] \"GET /api/product/commit HTTP/1.1\" 200 79 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:13 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/api/product\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:24 +0000] \"GET /api/user/commit HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:24 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/api/product/commit\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:29 +0000] \"GET /api/user HTTP/1.1\" 200 282 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:29 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/api/user/commit\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:42 +0000] \"GET /api/product HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:42 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/api/user\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:45:49 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:3000/api/product\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [09/Feb/2021:16:46:37 +0000] \"GET /api/product HTTP/1.1\" 304 - \"http://localhost:8081/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:12:02 +0000] \"GET /api/product/commit HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:12:52 +0000] \"GET /api/product/drop HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:13:01 +0000] \"GET /api/product HTTP/1.1\" 500 1004 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:13:08 +0000] \"GET /api/product/commit HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:13:12 +0000] \"GET /api/product HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:21:06 +0000] \"GET /api/product/drop HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:24:36 +0000] \"GET /api/product/commit HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:24:45 +0000] \"GET /api/product HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:25:45 +0000] \"POST /api/product HTTP/1.1\" 200 342 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:26:00 +0000] \"GET /api/product HTTP/1.1\" 200 344 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"500 - Unexpected field - /api/product - POST - ::1","level":"error"}
+{"message":"::1 - - [10/Feb/2021:15:29:58 +0000] \"POST /api/product HTTP/1.1\" 500 1856 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:31:11 +0000] \"POST /api/product HTTP/1.1\" 200 345 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:31:25 +0000] \"GET /api/product HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:33:42 +0000] \"GET /api/product?name=Forest HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:33:56 +0000] \"GET /api/product?name=Black HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:34:17 +0000] \"GET /api/product?name=Cappucino HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:35:31 +0000] \"GET /api/product?name=Cappucino HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:44:25 +0000] \"GET /api/product?name=Cappucino HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:44:56 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:45:50 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:46:28 +0000] \"GET /api/user/search?role=admin HTTP/1.1\" 200 282 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:46:36 +0000] \"GET /api/user HTTP/1.1\" 200 282 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:47:20 +0000] \"POST /api/user HTTP/1.1\" 200 68 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:47:41 +0000] \"POST /api/user HTTP/1.1\" 200 68 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:47:46 +0000] \"GET /api/user HTTP/1.1\" 200 759 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:47:57 +0000] \"GET /api/user/search?role=admin HTTP/1.1\" 200 522 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:48:08 +0000] \"GET /api/user/search?name=yayan HTTP/1.1\" 200 282 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:48:19 +0000] \"GET /api/user/search?name=user HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:53:08 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:53:48 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:54:41 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:55:52 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:56:31 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:58:36 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:15:58:49 +0000] \"GET /api/product HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:01:38 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:05:59 +0000] \"GET /api/product/search?category=Foods HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:06:44 +0000] \"GET /api/product/search?category=Foods HTTP/1.1\" 200 347 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:06:52 +0000] \"GET /api/product/search?name=Cappucino HTTP/1.1\" 200 344 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:07:00 +0000] \"GET /api/product/search?name=Forest HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:15:00 +0000] \"GET /api/product/search?name=Black HTTP/1.1\" 200 45 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:15:10 +0000] \"GET /api/product/search?name=Black%20Forest HTTP/1.1\" 200 347 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:15:17 +0000] \"GET /api/product/search?category=Foods HTTP/1.1\" 200 347 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:15:25 +0000] \"GET /api/product/search?category=Beverages HTTP/1.1\" 200 344 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:18:13 +0000] \"GET /api/product/search?category=Beverages HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:19:57 +0000] \"GET /api/product/search?category=Beverages HTTP/1.1\" 200 344 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:37:49 +0000] \"GET /api/product HTTP/1.1\" 200 647 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:38:53 +0000] \"PUT /api/product HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:16:38:58 +0000] \"GET /api/product HTTP/1.1\" 200 651 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:20:30 +0000] \"GET /product HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:21:12 +0000] \"GET /api/product HTTP/1.1\" 200 651 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:22:15 +0000] \"POST /api/product HTTP/1.1\" 200 349 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:22:22 +0000] \"GET /api/product HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:24:02 +0000] \"GET /api/product HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:24:13 +0000] \"GET /api/product HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:24:43 +0000] \"GET /api/product/sort HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:24:50 +0000] \"GET /api/product/sort HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:25:49 +0000] \"GET /api/product/sort HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:26:33 +0000] \"GET /api/product/sort HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:17:27:22 +0000] \"GET /api/product/sort HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:23:54:16 +0000] \"GET /api/product/price?name=high HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:23:54:27 +0000] \"GET /api/product/price?name=high HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:23:55:51 +0000] \"GET /api/product/price?name=high HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:23:56:42 +0000] \"GET /api/product/price?name=high HTTP/1.1\" 500 1220 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [10/Feb/2021:23:59:14 +0000] \"GET /api/product/price?order=DESC HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:00:00:38 +0000] \"GET /api/product/price?order=DESC HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:00:01:58 +0000] \"GET /api/product/price?order=DESC HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:00:03:07 +0000] \"GET /api/product/price?order=ASC HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:00:06:28 +0000] \"GET /api/product/name?name=ASC HTTP/1.1\" 500 1232 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:00:07:06 +0000] \"GET /api/product/name?name=ASC HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:00:19:57 +0000] \"GET /api/product/category?category=Foods HTTP/1.1\" 200 654 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:00:20:10 +0000] \"GET /api/product/category?category=Beverages HTTP/1.1\" 200 348 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:01:46:09 +0000] \"GET /api/product HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:01:55:00 +0000] \"POST /api/auth HTTP/1.1\" 500 112 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:01:55:20 +0000] \"GET /api/user HTTP/1.1\" 200 759 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:01:55:47 +0000] \"POST /api/auth HTTP/1.1\" 500 112 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:01:56:23 +0000] \"POST /api/auth HTTP/1.1\" 500 112 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:05:07:18 +0000] \"POST /api/auth HTTP/1.1\" 200 286 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:05:29:23 +0000] \"POST /api/auth HTTP/1.1\" 200 286 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:05:31:34 +0000] \"GET /api/user HTTP/1.1\" 401 103 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:05:31:56 +0000] \"POST /api/auth HTTP/1.1\" 200 290 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:05:32:10 +0000] \"GET /api/user HTTP/1.1\" 200 759 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:18:50:22 +0000] \"GET /api/history/commit HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:18:50:56 +0000] \"GET /api/history/drop HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:18:51:49 +0000] \"GET /api/user HTTP/1.1\" 401 144 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:18:52:10 +0000] \"GET /api/product HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:18:56:58 +0000] \"GET /api/history/commit HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:18:57:01 +0000] \"GET /api/history HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:18:57:02 +0000] \"GET /api/history HTTP/1.1\" 200 67 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:11:21 +0000] \"POST /api/history HTTP/1.1\" 500 1282 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:11:44 +0000] \"POST /api/history HTTP/1.1\" 500 1282 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:13:36 +0000] \"POST /api/history HTTP/1.1\" 500 1282 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:14:37 +0000] \"GET /api/history HTTP/1.1\" 200 67 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:16:07 +0000] \"POST /api/history HTTP/1.1\" 200 243 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:17:43 +0000] \"GET /api/history HTTP/1.1\" 200 245 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:24:08 +0000] \"PUT /api/history HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:35:47 +0000] \"GET /api/product HTTP/1.1\" 200 958 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:36:53 +0000] \"PUT /api/product HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:36:58 +0000] \"GET /api/product HTTP/1.1\" 200 957 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:38:04 +0000] \"GET /api/product HTTP/1.1\" 200 957 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:38:29 +0000] \"GET /api/history HTTP/1.1\" 200 245 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:38:50 +0000] \"PUT /api/history HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:41:15 +0000] \"PUT /api/history HTTP/1.1\" 500 64 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:42:08 +0000] \"PUT /api/history HTTP/1.1\" 200 70 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:42:13 +0000] \"GET /api/history HTTP/1.1\" 200 228 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}
+{"message":"::1 - - [11/Feb/2021:19:42:46 +0000] \"GET /api/history HTTP/1.1\" 200 228 \"-\" \"PostmanRuntime/7.26.10\"\n","level":"info"}

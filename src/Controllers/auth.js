@@ -9,8 +9,8 @@ class Auth {
     login = async  (req, res) => {
         try {
 
-            const passDB = await model.getByEmail(req.body.user_email)
-            const passUser = req.body.user_pass
+            const passDB = await model.getByEmail(req.body.email)
+            const passUser = req.body.password
 
             if (passDB.length <= 0 ) {
                 respons(res, 200, {msg: "email tidak terdaftar, silakan registrasi terlebih dahulu"})
@@ -19,8 +19,7 @@ class Auth {
             const cekPass =  await bcr.compare(passUser, passDB[0].user_pass)
             
             if (cekPass) {
-                
-                const result = await this.setToken(req.body.user_email, passDB[0].user_role)
+                const result = await this.setToken(req.body.email, passDB[0].user_role)
                 respons(res, 200, result)
             } else {
                 respons(res, 200, {msg: "cek password anda"})

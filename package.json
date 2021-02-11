@@ -8,8 +8,7 @@
     "start": "nodemon index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yayanjay/restapi.git"
+    "type": "git"
   },
   "keywords": [
     "nodejs",
@@ -37,6 +36,7 @@
     "nodemon": "^2.0.6",
     "pg": "^8.5.1",
     "redis": "^3.0.2",
+    "sequelize": "^6.3.5",
     "upgrade-node-modules": "^1.3.3",
     "winston": "^3.3.3"
   },

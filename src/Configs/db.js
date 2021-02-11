@@ -1,12 +1,29 @@
-/* eslint-disable no-undef */
-const {Pool} = require('pg')
+const {Sequelize} = require('sequelize')
 
-const db = new Pool({
-    database : process.env.DBNAME,
-    user : process.env.DBUSER,
-    password : process.env.DBPASS,
-    host : "localhost",
-    port : process.env.DBPORT
-})
+class Connect {
+    constructor() {
+        this.sequelize = new Sequelize(
+            process.env.DBNAME,
+            process.env.DBUSER,
+            process.env.DBPASS,
+            {
+                dialect: 'postgres',
+                host: process.env.DBHOST,
+                port: process.env.DBPORT
+            }
+        )
+    }
 
-module.exports = db;
+    connection() {
+        this.sequelize.authenticate()
+        .then(() => {
+            return console.log("Database Connected")
+        })
+        .catch(err => {
+            console.log("Something Went Wrong, Cannot Connect to Database")
+            console.log(err)
+        })
+    }
+}
+
+module.exports = new Connect()
